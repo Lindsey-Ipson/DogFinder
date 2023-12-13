@@ -1,4 +1,5 @@
 import React from 'react';
+import {v1 as uuid} from "uuid";
 import "./DogDetails.css";
 
 function DogDetails ({ dog }) {
@@ -9,7 +10,7 @@ function DogDetails ({ dog }) {
   console.log('FACTS HERE:', dog.facts)
   console.log('SRC HERE:', dog.src)
 
-  const factLis = dog.facts.map(fact => <li>{fact}</li>)
+  const factLis = dog.facts.map(fact => <li key={uuid()}>{fact}</li>)
 
   return (
     <div className="DogDetails">

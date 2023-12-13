@@ -6,10 +6,6 @@ import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import DogList from "./DogList";
 import CheckForDog from "./CheckForDog";
 
-import whiskey from "./images/whiskey.jpg";
-import duke from "./images/duke.jpg";
-import perry from "./images/perry.jpg";
-import tubby from "./images/tubby.jpg";
 
 function App() {
   return (
@@ -28,7 +24,7 @@ App.defaultProps = {
     {
       name: "Whiskey",
       age: 5,
-      src: whiskey,
+      src: '/whiskey.jpg',
       facts: [
         "Whiskey loves eating popcorn.",
         "Whiskey is a terrible guard dog.",
@@ -38,7 +34,7 @@ App.defaultProps = {
     {
       name: "Duke",
       age: 3,
-      src: duke,
+      src: '/duke.jpg',
       facts: [
         "Duke believes that ball is life.",
         "Duke likes snow.",
@@ -48,7 +44,7 @@ App.defaultProps = {
     {
       name: "Perry",
       age: 4,
-      src: perry,
+      src: '/perry.jpg',
       facts: [
         "Perry loves all humans.",
         "Perry demolishes all snacks.",
@@ -58,7 +54,7 @@ App.defaultProps = {
     {
       name: "Tubby",
       age: 4,
-      src: tubby,
+      src: '/tubby.jpg',
       facts: [
         "Tubby is really stupid.",
         "Tubby does not like walks.",
