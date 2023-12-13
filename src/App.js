@@ -4,12 +4,14 @@ import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 // import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 // import { Routes, Route } from 'react-router-dom';
 import DogList from "./DogList";
+import NavBar from "./NavBar";
 import CheckForDog from "./CheckForDog";
 
 
 function App() {
   return (
     <BrowserRouter>
+    <NavBar dogs={App.defaultProps.dogs} />
       <Routes>
         <Route path="/dogs" element={<DogList dogs={App.defaultProps.dogs} />} />
         <Route path="/dogs/:name" element={<CheckForDog dogs={App.defaultProps.dogs}/>} />
