@@ -1,0 +1,22 @@
+.DogList {
+  text-align: center;
+  align-items: center;
+}
+
+.DogList img {
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.DogList-dog-container {
+  display: box;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px;
+}
+
+.DogList-name {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
