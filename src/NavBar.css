@@ -1,25 +1,14 @@
 .NavBar {
-    background-color: #333;
-    color: white;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 40px;
-    z-index: 1;
+  background-color: #333;
+  color: white;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  z-index: 1;
 }
 
-/* .NavBar link {
-    float: right;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    
-} */
-
-/* Unvisited link */
 .NavBar a {
   color: white;
   text-decoration: none;
@@ -27,12 +16,10 @@
   display: inline-block;
 }
 
-/* Visited link */
 .NavBar a:visited {
   color: white;
 }
 
-/* Mouse over link */
 .NavBar a:hover {
   color: rgb(0, 208, 255);
 }

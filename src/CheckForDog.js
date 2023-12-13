@@ -6,8 +6,6 @@ import DogDetails from './DogDetails';
 function CheckForDog({ dogs }) {
 
   const { name } = useParams();
-  console.log('DOGS HERE:', dogs)
-  console.log('NAME HERE:', name)
 
   if (name) {
     const searchedDog = dogs.find(

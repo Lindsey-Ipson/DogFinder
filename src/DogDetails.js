@@ -3,12 +3,6 @@ import {v1 as uuid} from "uuid";
 import "./DogDetails.css";
 
 function DogDetails ({ dog }) {
-  console.log('fvcytfcyu')
-  console.log('DOG HERE:', dog)
-  console.log('NAME HERE:', dog.name)
-  console.log('AGE HERE:', dog.age)
-  console.log('FACTS HERE:', dog.facts)
-  console.log('SRC HERE:', dog.src)
 
   const factLis = dog.facts.map(fact => <li key={uuid()}>{fact}</li>)
 
